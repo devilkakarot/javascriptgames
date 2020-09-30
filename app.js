@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let PlatformCount = 5;
   let platforms = [];
 
+  //function to create a doodler.
   function createDoodler() {
     grid.appendChild(doodler);
     doodler.classList.add("doodler");
@@ -27,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.appendChild(visual);
     }
   }
-
+//function to create the green platforms from which doodler will jump
   function createPlatforms() {
     for (let i = 0; i < PlatformCount; i++) {
       let platformGap = 600 / PlatformCount;
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
       platforms.push(newPlatform);
     }
   }
-
+//function to move the platfrom randomly to left and right.
   function movePlatforms() {
     if (doodlerBottomSpace > 200) {
       platforms.forEach(platform => {
