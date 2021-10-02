@@ -14,9 +14,3 @@ Since it is a web based game, to run this code the system should have HTML, CSS 
 
 Clone this code to your Fav editoer( VS Code, Android Studio etc) Compile it and Run it.
 
-**Authors**
-
-The people who contributed to this projects are
-
-***1. SANEENKUTTY***
-***2. ALEXY***
